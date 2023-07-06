@@ -10,9 +10,9 @@ const Login = () => {
     <Card customCardStyle={{flex: 1}}>
       <View style={{justifyContent: 'center', marginTop: 85}}>
         <CustomLabel
-          lableName="Learn React Native"
+          lableName="A T O M"
           customStyleLabel={{
-            color: 'darkgreen',
+            color: 'green',
             fontSize: 30,
             fontWeight: 'bold',
           }}
