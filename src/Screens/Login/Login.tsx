@@ -36,7 +36,7 @@ const Login = () => {
         </View>
       </View>
       <View style={{marginTop: 120}}>
-        <CustomButton title="Login" />
+        <CustomButton title="Login" onPress={() => {}} />
       </View>
     </Card>
   );

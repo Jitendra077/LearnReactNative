@@ -1,18 +1,7 @@
 import React from 'react';
-import {
-  TouchableOpacity,
-  Text,
-  StyleSheet,
-  ViewStyle,
-  TextStyle,
-} from 'react-native';
-
-interface CustomButtonProps {
-  title: string;
-  onPress: () => void;
-  buttonStyle?: ViewStyle;
-  textStyle?: TextStyle;
-}
+import {TouchableOpacity, Text} from 'react-native';
+import {styles} from './Style';
+import {CustomButtonProps} from './Type';
 
 const CustomButton: React.FC<CustomButtonProps> = ({
   title,
@@ -26,21 +15,5 @@ const CustomButton: React.FC<CustomButtonProps> = ({
     </TouchableOpacity>
   );
 };
-
-const styles = StyleSheet.create({
-  button: {
-    backgroundColor: 'green',
-    paddingHorizontal: 20,
-    paddingVertical: 10,
-    borderRadius: 15,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  buttonText: {
-    color: '#FFFFFF',
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-});
 
 export default CustomButton;
