@@ -5,7 +5,7 @@ import DetailPage from '@/Screens/DetailPage/DetailPage';
 import Profile from '@/Screens/Profile/Profile';
 const Tab = createBottomTabNavigator();
 
-export const BottamTabNavigation = () => {
+export const BottomTabNavigation = () => {
   return (
     <Tab.Navigator>
       <Tab.Screen name='Home' component={Home} />
