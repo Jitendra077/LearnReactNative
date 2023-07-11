@@ -10,7 +10,7 @@ const Login = () => {
     <Card customCardStyle={{ flex: 1 }}>
       <View style={{ justifyContent: 'center', marginTop: 85 }}>
         <CustomLabel
-          lableName="A T O M"
+          lableName='A T O M'
           customStyleLabel={{
             color: 'green',
             fontSize: 30,
@@ -20,23 +20,23 @@ const Login = () => {
       </View>
       <View>
         <CustomLabel
-          lableName="Login"
+          lableName='Login'
           customlabelContainerStyle={{ marginTop: 76 }}
         />
       </View>
       <View>
-        <CustomInput placeholder="Email / Phone number" />
-        <CustomInput placeholder="Password" />
+        <CustomInput placeholder='Email / Phone number' />
+        <CustomInput placeholder='Password' />
         <View>
           <CustomLabel
-            lableName="Forgot Your Password?"
+            lableName='Forgot Your Password?'
             customStyleLabel={{ fontSize: 9, color: 'green' }}
             customlabelContainerStyle={{ alignSelf: 'flex-end', marginTop: 12 }}
           />
         </View>
       </View>
       <View style={{ marginTop: 120 }}>
-        <CustomButton title="Login" onPress={() => { }} />
+        <CustomButton title='Login' onPress={() => {}} />
       </View>
     </Card>
   );
